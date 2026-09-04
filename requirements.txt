@@ -1,0 +1,5 @@
+httpx>=0.27,<1
+matplotlib>=3.8,<4
+# Enables --tokenizer so the generated prompt matches the model tokenizer
+# instead of using --chars-per-token estimation.
+transformers>=4.40,<5
